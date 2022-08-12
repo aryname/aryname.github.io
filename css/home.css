@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #292929
+}
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0
+}
+
+.flex {
+    display: flex
+}
+
+.flex-both-center {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.flex-wrap {
+    flex-wrap: wrap
+}
+
+.flex-h-center {
+    display: flex;
+    justify-content: center
+}
+
+.flex-dir-c {
+    flex-direction: column
+}
+
+.mt-8 {
+    margin-top: 12px
+}
+
+.mt-16 {
+    margin-top: 16px
+}
+
+.mt-24 {
+    margin-top: 24px
+}
+
+.mt-32 {
+    margin-top: 32px
+}
+
+.mt-36 {
+    margin-top: 48px
+}
+
+.m-auto {
+    margin: auto
+}
+
+.ml-6 {
+    margin-left: 6px
+}
+
+.ln-h-22 {
+    line-height: 22px
+}
+
+.text-fs-16 {
+    font-size: 16px
+}
+
+.page-overlay {
+    background: rgba(0, 0, 0, .1);
+    -webkit-backdrop-filter: blur(45px);
+    backdrop-filter: blur(45px);
+    z-index: 100
+}
+
+.page-image,
+.page-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh
+}
+
+.display-image,
+.page-image {
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.display-image {
+    width: 96px;
+    height: 96px;
+    display: block;
+    border-radius: 50%
+}
+
+.text-center {
+    text-align: center
+}
+
+.page-title {
+    margin-bottom: 0
+}
+
+.page-bioline {
+    font-weight: 500
+}
+
+.page-full-wrap {
+    width: 680px;
+    z-index: 10
+}
+
+.page-item-wrap {
+    transition: transform .15s cubic-bezier(.17, .67, .29, 2.71) 0s
+}
+
+.page-item-wrap:hover {
+    transform: translateZ(0) scale(1.015)
+}
+
+.page-item {
+    box-sizing: border-box
+}
+
+.page-social {
+    display: block;
+    margin: 0 12px 12px
+}
+
+.page-social svg {
+    width: 28px;
+    height: 28px
+}
+
+.relative {
+    position: relative
+}
+
+.link-each-image {
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    left: 9px;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.page-logo {
+    position: absolute;
+    bottom: 32px;
+    left: calc(50% - 15px)
+}
+
+.rounded-md {
+    border-radius: 8px
+}
+
+.close-embed {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: .7
+}
+
+.embed-wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%
+}
+
+.close-embed:hover {
+    opacity: 1
+}
+
+.cursor-pointer {
+    cursor: pointer
+}
+
+.page-item-each {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 10
+}
+
+.social-icon-fill:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1)
+}
+
+.page-item-title {
+    font-weight: 700;
+    margin-bottom: 16px
+}
+
+@media(max-width:768px) {
+    .page-full-wrap {
+        width: 80%
+    }
+}
+
+.page-bg {
+    background: #292929
+}
+
+.page-title {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.page-bioline {
+    font-size: 16px;
+    font-weight: 500
+}
+
+.page-item-title {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.page-item-each {
+    color: #fff;
+    font-family: inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px
+}
+
+.page-item {
+    border: 0 solid transparent;
+    background: #3a3a3d;
+    border-radius: 8px;
+    box-shadow: 0 6px 14px -6px rgba(24, 39, 75, .12), 0 10px 32px -4px rgba(24, 39, 75, .1), inset 0 0 2px 1px rgba(255, 255, 255, .05);
+    height: 60px;
+    margin-top: 16px
+}
+
+.link-each-image,
+.embed-wrap iframe,
+.page-item-wrap {
+    border-radius: 8px
+}
+
+.page-text-font {
+    font-family: inter, sans-serif
+}
+
+.page-text-color {
+    color: #fff
+}
+
+.social-icon-fill path,
+.social-icon-fill circle,
+.social-icon-fill rect {
+    fill: #fff
+}
