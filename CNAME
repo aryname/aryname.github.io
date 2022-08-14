@@ -1,1 +1,4 @@
-thongtinthanhtoann.tk
+1. Create a TXT record in your DNS configuration for the following hostname: _github-pages-challenge-aryname.taicuong365.gq
+2. Use this code for the value of the TXT record: 68e690bcdb7405d8c3b45e7e3a2697
+3. Wait until your DNS configuration changes. This could take up to 24 hours to propagate.
+  https://taicuong365.gq
