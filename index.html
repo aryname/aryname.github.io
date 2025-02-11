@@ -1,0 +1,568 @@
+
+<!DOCTYPE html>
+<html lang="vn">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="55gP035Ci1yETPzJe0O7xVhQC3PjC2zv3JIvC0iB">
+        <title>Bình Chọn Miss VLU 2024</title>
+        <link rel="shortcut icon" href="favicon.ico.html" type="image/x-icon">
+        <meta property="og:image" content="/images/miss-vlu-2023-banner.png">
+        <!-- Scripts -->
+        <link rel="preload" as="style" href="https://hoakhoi2024.vlu.edu.vn/build/assets/app-782d0991.css">
+        <link rel="preload" as="style" href="https://hoakhoi2024.vlu.edu.vn/build/assets/app-1ffd0f8b.css">
+        <link rel="stylesheet" href="/css/app-782d0991.css">
+        <link rel="stylesheet" href="/css/app-1ffd0f8b.css">
+        <script src="npm/sweetalert2%4011"></script>
+    </head>
+    <body>
+        <div id="app">
+            <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+                <div class="container">
+                    <a class="navbar-brand" href="/">
+                        <img class="img-doan-hoi" src="/images/doanhoivanlang.jpg" alt="Logo Đoàn Hi">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- Left Side Of Navbar -->
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active miss-text" aria-current="page" href="/">HOA KHÔI VĂN LANG 2024</a>
+                            </li>
+                        </ul>
+                        <!-- Right Side Of Navbar -->
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Trang chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#gioithieu">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#huongdan">Hướng dẫn bình chọn</a>
+                            </li>
+                            <!-- Authentication Links -->
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-primary text-white" type="button" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Đăng nhập</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <main>
+                <div class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/images/banner-2500-min.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row mt-4">
+                        <h1 style="font-size: 1.5rem; font-weight: 700;">DANH SÁCH THÍ SINH</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 mt-4" id="thi-sinh-22">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/b3b7a8f5-1bb3-499f-8a7a-fb0b38d62269.jpg" alt="Nguyễn Phương Anh">
+                                <div class="card-body">
+                                    <h4>Nguyễn Phương Anh</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 105
+                                        <br>
+                                        <b>Khoa:</b> Sân khấu - Điện ảnh
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọnn: 1281</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Đoàn Nguyễn Phưng Anh" data-id="22" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('105');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-23">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/d9b5c6ac-6160-4275-915b-47975a8974ac.jpg" alt="Trần Thái Hồng Anh">
+                                <div class="card-body">
+                                    <h4>Trần Thái Hồng Anh</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 126
+                                        <br>
+                                        <b>Khoa:</b> Sân khấu điện ảnh
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bnh chọn: 1349</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Thái Hồng Anh" data-id="23" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('126');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-24">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/fbea2eb9-e486-491f-b1a9-ab02a8e7ac3b.jpg" alt="Hồ Trương Ngọc Ánh">
+                                <div class="card-body">
+                                    <h4>Hồ Trương Ngọc Ánh</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 146
+                                        <br>
+                                        <b>Khoa:</b> Tài chính - Ngân hàng
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 1325</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Hồ Trương Ngọc Ánh" data-id="24" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('146');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-47">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/a4a26426-d402-40fb-82ae-8bac76baf081.jpg" alt="Phạm Nhật Hoàng Cẩm">
+                                <div class="card-body">
+                                    <h4>Phạm Nhật Hoàng Cẩm</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 106
+                                        <br>
+                                        <b>Khoa:</b> Thương mại
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 1369</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Nguyễn Nhật Hoàng Cẩm" data-id="47" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('106');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-48">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/b969a05b-163c-4a39-abdb-411cb7ee51b2.jpg" alt="Nguyễn Minh Hồng Cẩm">
+                                <div class="card-body">
+                                    <h4>Nguyễn Minh Hồng Cẩm</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 158
+                                        <br>
+                                        <b>Khoa:</b> Sân khấu - Điện ảnh
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 1398</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Nguyễn Minh Hồng Cẩm" data-id="48" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('158');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-49">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/5b21dbe0-3548-4fc0-852c-702ec609ea03.jpg" alt="Nguyễn Võ Kim Chi">
+                                <div class="card-body">
+                                    <h4>Nguyễn Võ Kim Chi</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 155
+                                        <br>
+                                        <b>Khoa:</b> Ngoại Ngữ
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 1129</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Nguyễn Võ Kim Chi" data-id="49" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('155');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-50">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/0147777a-856a-4c69-bc4f-f41225449701.jpg" alt="Nguyễn Thị Thúy Dung">
+                                <div class="card-body">
+                                    <h4>Nguyễn Thị Thúy Dung</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 109
+                                        <br>
+                                        <b>Khoa:</b> Tài chính - Ngân hàng
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 1251</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Nguyễn Th Thúy Dung" data-id="50" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('109');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-51">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/ad72ddbe-6fa3-4829-9a83-0377e1a7d0c0.jpg" alt="Phùng Lê Thanh Hà">
+                                <div class="card-body">
+                                    <h4>Phùng Lê Thanh Hà</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 112
+                                        <br>
+                                        <b>Khoa:</b> Ngoại Ngữ
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 1119</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Phùng Lê Thanh Hà" data-id="51" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('112');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-52">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/e1823d6f-07cb-4f35-ac17-01133a7bb823.jpg" alt="Võ Thị Hằng">
+                                <div class="card-body">
+                                    <h4>Võ Thị Hằng</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 124
+                                        <br>
+                                        <b>Khoa:</b> Quan hệ công chúng - Truyền thông
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 1106</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Võ Thị Hng" data-id="52" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('124');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-53">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/82587ce2-25b2-4272-aa7d-54d64bb3c3b7.jpg" alt="Nguyễn Phạm Lan Hương">
+                                <div class="card-body">
+                                    <h4>Nguyễn Phạm Lan Hương</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 161
+                                        <br>
+                                        <b>Khoa:</b> Quan hệ công chúng
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 1058</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Nguyễn Phạm Lan Hương" data-id="53" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('161');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-54">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/5f3e6125-b35d-4295-a485-c85b6906ee60.jpg" alt="Lường Thị Vĩnh Linh">
+                                <div class="card-body">
+                                    <h4>Lường Thị Vĩnh Linh</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 113
+                                        <br>
+                                        <b>Khoa:</b> Thương mại
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 978</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Lường Thị Vĩnh Linh" data-id="54" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('113');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-55">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/764e4498-8198-4b3a-8686-c28c0e79e5a7.jpg" alt="Trần Hoàng Phương Linh">
+                                <div class="card-body">
+                                    <h4>Trần Hoàng Phương Linh</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 120
+                                        <br>
+                                        <b>Khoa:</b> Quan hệ công chúng
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 843</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Trần Hoàng Phương Linh" data-id="55" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('120');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-56">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/aafa283f-06e8-45a5-b913-049817bd26a4.jpg" alt="Nguyễn Thanh Khánh Linh">
+                                <div class="card-body">
+                                    <h4>Lê Thanh Khánh Linh</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 171
+                                        <br>
+                                        <b>Khoa:</b> Quan hệ công chúng
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 912</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Nguyễn Thanh Khánh Linh" data-id="56" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('171');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-57">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/53d5fe66-8bb2-434e-b0cf-8e75923088d5.jpg" alt="Lê Thị Kim Ngân">
+                                <div class="card-body">
+                                    <h4>Lê Thị Kim Ngân</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 127
+                                        <br>
+                                        <b>Khoa:</b> Quan hệ công chúng
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 836</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Lê Thị Kim Ngân" data-id="57" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem nh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('127');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-58">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/99dbe5f5-8d15-4b17-8974-b749da0f28d2.jpg" alt="Huỳnh Bảo Ngọc">
+                                <div class="card-body">
+                                    <h4>Huỳnh Lê Bảo Ngọc</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 110
+                                        <br>
+                                        <b>Khoa:</b> Tài chính - Ngân hàng
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 828</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Huỳnh Bảo Ngọc" data-id="58" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('110');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-59">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/cfd440b6-3b56-4e56-b3b6-47b799cd6eca.jpg" alt="Nguyễn Thị Hồng Nhung">
+                                <div class="card-body">
+                                    <h4>Nguyễn Thị Hồng Nhung</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 160
+                                        <br>
+                                        <b>Khoa:</b> Nghệ thuật ứng dụng
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 924</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Nguyễn Thị Hồng Nhung" data-id="59" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('160');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-60">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/35694c33-d09f-4c26-95eb-fa751b1e8042.jpg" alt="Đặng Trần Thanh Tâm">
+                                <div class="card-body">
+                                    <h4>Đặng Trần Thanh Tâm</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 156
+                                        <br>
+                                        <b>Khoa:</b> Quan hệ công chúng
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 1131</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Đặng Trần Thanh Tâm" data-id="60" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('156');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-61">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/9543947e-86bd-4c04-8aed-1d90c282a652.jpg" alt="Nguyễn Hoàng Thu Thảo">
+                                <div class="card-body">
+                                    <h4>Hoàng Thu Thảo</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 154
+                                        <br>
+                                        <b>Khoa:</b> Du lịch
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 938</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Nguyễn Hoàng Thu Tho" data-id="61" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('154');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-62">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/5f9fa9f6-bcaf-4142-a24f-768188a9bb7b.jpg" alt="Mai Trương Bảo Trân">
+                                <div class="card-body">
+                                    <h4>Mai Trương Bảo Trân</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 104
+                                        <br>
+                                        <b>Khoa:</b> Mỹ thuật và thiết kế
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 733</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Mai Trương Bảo Trân" data-id="62" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('104');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-63">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/e735838c-99c3-4a8c-be76-b9d866319345.jpg" alt="Nguyễn Thị Hồng Vân">
+                                <div class="card-body">
+                                    <h4>Nguyễn Thị Hồng Vân</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 117
+                                        <br>
+                                        <b>Khoa:</b> Thương mại
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 1186</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Nguyễn Thị Hồng Vân" data-id="63" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('117');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-64">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/7e36070b-61bf-4f3c-be80-0ca9f4583f91.jpg" alt="Phù Thị Vi">
+                                <div class="card-body">
+                                    <h4>Phù Thị Ánh Vy</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 119
+                                        <br>
+                                        <b>Khoa:</b> Truyền thông
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 850</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Phù Thị Vi" data-id="64" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('119');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-65">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/7015364d-f966-43fa-a3b6-3dcba377466a.jpg" alt="Huỳnh Mẫn Xuyên">
+                                <div class="card-body">
+                                    <h4>Huỳnh Mẫn Xuyên</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 116
+                                        <br>
+                                        <b>Khoa:</b> Thương mại
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 989</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Huỳnh Mẫn Xuyên" data-id="65" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('116');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4" id="thi-sinh-66">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/6742dc9b-2d26-400a-a886-6849d8e78de3.jpg" alt="Trần Lê Kim Yến">
+                                <div class="card-body">
+                                    <h4>Trần Lê Kim Yến</h4>
+                                    <p class="card-text">
+                                        <b>SBD:</b> 107
+                                        <br>
+                                        <b>Khoa:</b> Truyền thông
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <p><b>Lượt bình chọn: 1134</b>
+                                    </p>
+                                    <button data-voted="0" data-login="0" data-name="Trần Lê Kim Yến" data-id="66" type="button" class="btn btn-primary mb-3 btn-xem-anh">Xem ảnh</button>
+                                    <button type="button" class="btn btn-danger mb-3" data-bs-toggle="modal" data-bs-target="#loginModal" onclick="selectThiSinh('107');">Bình chọn</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <script>
+                    function selectThiSinh(id) {
+                        document.cookie = "sbd=" + id + "; path=/";
+                    }
+                </script>
+
+                <div class="modal fade " id="xemAnhThiSinh" tabindex="-1" aria-labelledby="xemAnhThiSinhLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="xemAnhModalTitle">Thí sinh</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center" id="dsAnhThiSinh">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
+                                <button id="btnVoteXemAnh" type="button" class="btn btn-danger btn-vote">Bình chọn</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Trang chủ</a>
+                    </li>
+                    <li class="nav-item"><a href="gioithieu.html" class="nav-link px-2 text-muted">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item"><a href="huongdan.html" class="nav-link px-2 text-muted">Hướng dẫn bình chọn</a>
+                    </li>
+                    <li class="nav-item"><a target="_blank" href="https://www.facebook.com/dtndhvl" class="nav-link px-2 text-muted">Fanpage</a>
+                    </li>
+                </ul>
+                <p class="text-center text-muted">© 2025 - Bản Quyền Thuộc Trường Đại Học Văn Lang</p>
+            </footer>
+        </div>
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel">Đăng nhập</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <p>Vui Lòng Đăng Nhập Bằng Tài Khoản Facebook Để Bình Chọn Thí Sinh.</p>
+                        <a href="login.html">
+                            <img src="/images/2021_Facebook_icon.svg.webp" style="width: 85px;" alt="logo">
+                        </a>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <a type="button" class="btn btn-success" href="/login">Tiếp Tục Bình Chọn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="js/app-4b6ab911.js?675743911"></script>
+    </body>
+</html>
