@@ -1,0 +1,108 @@
+.header-vkontakte {
+    background: #fff;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.header-vkontakte img {
+    width: 40;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    display: block;
+}
+
+.content-box-vkontakte {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2px;
+    display: block;
+}
+
+.content-box-vkontakte span {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+
+.content-box-vkontakte p {
+    color: #fa3e3e;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    text-align: center;
+    display: none;
+}
+
+.content-box-vkontakte label {
+    color: #000;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    text-align: left;
+}
+
+.content-box-vkontakte label a {
+    color: #4376a6;
+}
+
+.content-box-vkontakte button {
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    border-radius: 10px;
+    outline: none;
+}
+
+.content-box-vkontakte button:nth-child(6) {
+    background: #4376a6;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 14px;
+    color: #fff;
+    border: none;
+}
+
+.form-group-vkontakte {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+}
+
+.form-group-vkontakte input {
+    background: transparent;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 11px;
+    color: #000;
+    font-size: 17px;
+    font-family: arial, sans-serif;
+    border: 1px solid #657786;
+    border-radius: 10px;
+    outline: none;
+    display: block;
+}
+
+.form-group-sohi {
+    width: 50px;
+    height: 73%;
+    margin-left: 88%;
+    position: absolute;
+    z-index: 9999999;
+    cursor: pointer;
+}
+
+.form-group-sohi img {
+    width: 25px;
+    margin-top: 14px;
+}
