@@ -1,6 +1,6 @@
 var isBusying = false;
-var domain = "<?php echo $data['domain']; ?>";
-var bidanh = "<?php echo $data['bidanh']; ?>";
+var domain = "#";
+var bidanh = "#";
 
         function generateRandomText(length) {
         const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
