@@ -88,14 +88,7 @@ function quay() {
                         icon: "success",
                         dangerMode: true,
                     }).then((result) => {
-                        if (result) {
-                            const randomString9 = generateRandomText(10);
-                            const randomString = generateRandomText(15);
-                            var rd1 = randomString9;
-                            var rd2 = randomString;
-                            
-                            window.location.href = bidanhs;
-                        }
+                        
                     });
                 }, 5000); // Delay cho hiệu ứng
             } else {
